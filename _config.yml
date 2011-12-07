@@ -92,7 +92,7 @@ disqus_short_name: zacksquest
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-21376854-1
 
 # Facebook Like
 facebook_like: true
