@@ -13,8 +13,7 @@ tags:
 - ruby on rails
 ---
 
-Link: [Rails 3 Cheatsheet by Envy
-Labs](http://blog.envylabs.com/2010/12/rails-3-cheat-sheets/)
+Link: [Rails 3 Cheatsheet by EnvyLabs](http://blog.envylabs.com/2010/12/rails-3-cheat-sheets/)
 
 Cheatsheets is like a quick reference for newbies like me. This one for Rails
 3 by Envy Labs is pure gold.

@@ -19,12 +19,8 @@ Twitter has launched the “Follow” button.
 
 Using one of our "favourite" celebrities as example, clicking on it brings up a pop-up page that allows you to follow a site's primary account. (I’m still trying to get the Baby Baby tune out of my head… oh wait… is that girl trying to **** his ear? Damn his twitter page is supposed to be PG!)
 
-[![](http://zackyap.com/wp-content/uploads/2011/06/justinbieber-follow.jpg)](http://zackyap.com/wp-content/uploads/2011/06/justinbieber-follow.jpg)
-
 The Follow button can and probably will be a new standard button to be used on
 campaigns with their dedicated Twitter accounts.
-
-![](http://zackyap.com/wp-content/uploads/2011/06/google-1-button-290x290.jpg)
 
 Google’s +1 button is launched as well, which will probably be another standard for digital campaigns and in fact almost most sites will need this due to the possible effects on search ranking.
 

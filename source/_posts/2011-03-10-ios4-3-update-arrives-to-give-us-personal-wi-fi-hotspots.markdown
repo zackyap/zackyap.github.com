@@ -13,11 +13,11 @@ tags:
 - iPhone
 ---
 
-[[![ios4-3](http://zackyap.com/wp-
+<!-- [[![ios4-3](http://zackyap.com/wp-
 content/uploads/2011/03/ios4-3.jpg)](http://zackyap.com/wp-
 content/uploads/2011/03/ios4-3.jpg)](http://zackyap.com/wp-
 content/uploads/2011/03/ios4-3.jpg)
-
+ -->
 Image from [engadget](http://engadget.com).Latest iOS update is up and running
 and your iPhone should spot an iOS 4.3 software soon.
 

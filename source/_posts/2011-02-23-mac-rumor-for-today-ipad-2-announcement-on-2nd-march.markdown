@@ -13,9 +13,6 @@ tags:
 - iPad
 ---
 
-[![ipad](http://zackyap.com/wp-content/uploads/2011/02/apple_ipad_3g-
-300x174.jpg)](http://zackyap.com/wp-content/uploads/2011/02/apple_ipad_3g.jpg)
-
 The latest news is that March 2nd's Apple event will be for the announcement
 of this year's iPad. Of course, there are also other rumors that [this won't
 be the only release of iPad for the

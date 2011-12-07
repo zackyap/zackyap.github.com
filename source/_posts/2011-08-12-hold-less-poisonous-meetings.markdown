@@ -28,7 +28,7 @@ What is this meeting about? Does everyone know what it is about and why they are
 
 Meet with only those in the team that absolutely needs to be there. Leave the rest alone. If they only need to know the conclusions to the meeting, drop them a note after.
 
-> ## An even better way? Just send them a message.
+> An even better way? Just send them a message.
 
 ### Can what you want to say be understood easily through writing?
 

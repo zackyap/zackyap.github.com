@@ -12,8 +12,8 @@ tags:
 - idea
 ---
 
-[![42goals](http://zackyap.com/wp-content/uploads/2011/03/goals42-300x136.jpg)](http://zackyap.com/wp-content/uploads/2011/03/goals42.jpg)
-
+<!-- [![42goals](http://zackyap.com/wp-content/uploads/2011/03/goals42-300x136.jpg)](http://zackyap.com/wp-content/uploads/2011/03/goals42.jpg)
+ -->
   
 I happened across [this new web app](http://www.42goals.com) and through looking at the UI, I know that if I worked on the idea, this would have been what it is.
 
