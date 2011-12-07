@@ -116,7 +116,7 @@
 
 <p>If you&#8217;re looking to migrate from Wordpress as well, here&#8217;s an outline of the steps I took:</p>
 
-<p><strong><strong> 1. Make sure you have Ruby 1.9.2+ and Clone Octopress </strong></strong></p>
+<h4>1. Make sure you have Ruby 1.9.2+ and Clone Octopress</h4>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -124,54 +124,70 @@
 </span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
 
 
-<p><strong><strong> 2. Install dependencies and install the default Ocotpress theme </strong></strong></p>
+<h4>2. Install dependencies and install the default Ocotpress theme</h4>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>bundle install
-</span><span class='line'>rake install</span></code></pre></td></tr></table></div></figure>
-
-
-<p><strong><strong> 3. Export and convert WordPress blog posts you want to migrate </strong></strong></p>
-
-<p>Export WordPress blog entries you want to migrate and use <a href="https://github.com/thomasf/exitwp">exitwp</a> to convert them to markdown.  Put the converted entries into your <code>source/_posts</code> folder.</p>
-
-<p><strong><strong> 4. Set up a Github page </strong></strong></p>
-
-<p>If you want a Github page with subdomain called username/organization, set up a Github repository like <code>username.github.com</code> or <code>organization.github.com</code>
-Next, run Octopress&#8217;s Github Pages setup:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
-
-
-<p>It will ask you for your Github repository URL so throw in the SSH URL for your Github repository.</p>
-
-<p><strong><strong> 5. Generate the blog and deploy </strong></strong></p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate
-</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
-
-
-<p><strong><strong> 6. Commit the source of your blog </strong></strong></p>
+<p>bundle install
+rake install</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git add .
-</span><span class='line'>git commit -m 'your message'
-</span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>
+</span><span class='line'>#### 3. Export and convert WordPress blog posts you want to migrate ####
+</span><span class='line'>
+</span><span class='line'>Export WordPress blog entries you want to migrate and use [exitwp](https://github.com/thomasf/exitwp) to convert them to markdown.  Put the converted entries into your `source/_posts` folder.
+</span><span class='line'>
+</span><span class='line'>#### 4. Set up a Github page ####
+</span><span class='line'>
+</span><span class='line'>If you want a Github page with subdomain called username/organization, set up a Github repository like `username.github.com` or `organization.github.com`
+</span><span class='line'>Next, run Octopress's Github Pages setup:
+</span></code></pre></td></tr></table></div></figure>
 
 
-<p><strong><strong> 7. View your blog on local </strong></strong></p>
+<p>rake setup_github_pages</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>
+</span><span class='line'>It will ask you for your Github repository URL so throw in the SSH URL for your Github repository.
+</span><span class='line'>
+</span><span class='line'>#### 5. Generate the blog and deploy ####
+</span></code></pre></td></tr></table></div></figure>
 
 
-<p><strong><strong> 8. Set up your custom domain </strong></strong></p>
+<p>rake generate
+rake deploy</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>
+</span><span class='line'>#### 6. Commit the source of your blog ####
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>git add .
+git commit -m &#8216;your message&#8217;
+git push origin source</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>
+</span><span class='line'>#### 7. View your blog on local ####
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>rake preview
+&#8220;`</p>
+
+<h4>8. Set up your custom domain</h4>
 
 <p>I&#8217;ll leave this to you with Octopress&#8217;s own instructions at <a href="http://octopress.org/docs/deploying/github#custom_domains">Custom Domains</a>.</p>
 
@@ -220,6 +236,8 @@ Next, run Octopress&#8217;s Github Pages setup:</p>
         <a class="basic-alignment left" href="/blog/2011/09/16/plugins-un-plugged/" title="Previous Post: Plugins un-plugged?">&laquo; Plugins un-plugged?</a>
       
       
+        <a class="basic-alignment right" href="/blog/2011/12/08/prepare-3-elevator-pitches/" title="next Post: Prepare 3 Elevator Pitches">Prepare 3 Elevator Pitches &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -237,6 +255,10 @@ Next, run Octopress&#8217;s Github Pages setup:</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/12/08/prepare-3-elevator-pitches/">Prepare 3 Elevator Pitches</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2011/12/07/setting-up-the-blog-using-octopress/">Setting up the blog using Octopress</a>
@@ -272,10 +294,6 @@ Next, run Octopress&#8217;s Github Pages setup:</p>
     
       <li class="post">
         <a href="/blog/2011/05/19/5634582064/">Rails 3 Cheatsheet by Envy Labs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/03/15/creating-desirability/">Creating Desirability</a>
       </li>
     
   </ul>
