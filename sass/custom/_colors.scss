@@ -19,10 +19,12 @@ $sidebar-link-color-hover: darken(#1D181F, 9);
 $main-bg: #3B424C;
 
 $text-color: #FF5335;
-p { color: #fff; }
+p, ul, ol { color: #fff; }
+
 
 #tweets p { color: #3B424C;}
 aside.sidebar h1 { color: #3B424C;}
+aside.sidebar ul, ol { color: #B29C85;}
 
 /* To use the light Solarized highlighting theme uncomment the following line */
 //$solarized: light;

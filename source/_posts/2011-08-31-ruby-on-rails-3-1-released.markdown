@@ -5,6 +5,7 @@ layout: post
 slug: ruby-on-rails-3-1-released
 status: publish
 title: Ruby on Rails 3.1 Released
+comments: true
 wordpress_id: '306'
 categories:
 - Technology

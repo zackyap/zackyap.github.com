@@ -5,6 +5,7 @@ layout: post
 slug: plugins-un-plugged
 status: publish
 title: Plugins un-plugged?
+comments: true
 wordpress_id: '310'
 categories:
 - Technology

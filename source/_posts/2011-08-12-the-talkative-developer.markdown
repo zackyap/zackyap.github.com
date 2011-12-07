@@ -5,6 +5,7 @@ layout: post
 slug: the-talkative-developer
 status: publish
 title: The Talkative Developer
+comments: true
 wordpress_id: '297'
 categories:
 - Programming
