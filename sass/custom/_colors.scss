@@ -27,6 +27,7 @@ aside.sidebar h1 { color: #3B424C;}
 aside.sidebar ul, ol { color: #B29C85;}
 
 $footer-color: #333;
+footer p { color: $footer-color; }
 
 /* To use the light Solarized highlighting theme uncomment the following line */
 //$solarized: light;
