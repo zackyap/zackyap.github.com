@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Programming | Zack's Quest]]></title>
+  <link href="http://zackyap.github.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://zackyap.github.com/"/>
+  <updated>2011-12-07T13:27:10+08:00</updated>
+  <id>http://zackyap.github.com/</id>
+  <author>
+    <name><![CDATA[Zack Yap -- @zackyap]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Talkative Developer]]></title>
+    <link href="http://zackyap.github.com/blog/2011/08/12/the-talkative-developer/"/>
+    <updated>2011-08-12T15:33:43+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/08/12/the-talkative-developer</id>
+    <content type="html"><![CDATA[<p>Your job scope requires you to sit behind a huge monitor and bury yourself in
+code. That basically means you build things, in CODE. And what the code
+renders, is ART. Interactive art and possibly the most modern, most advanced
+art form.</p>
+
+<p>As developers, we need to be very talkative about the project we are working
+on.</p>
+
+<h3>Talk to relevant stakeholders.</h3>
+
+<p>Your client, your managers, your peers, tell them what you are doing, solicit
+feedback.</p>
+
+<p>Tell them your vision.</p>
+
+<p>Tell them what you think would work or won't.</p>
+
+<p>Don't wait till the end to start talking.</p>
+
+<p>Keep communicating. Keep telling.</p>
+
+<h3>Talk to other developers.</h3>
+
+<p>Again, tell them what you are doing.</p>
+
+<p>What technology you are using.</p>
+
+<p>What language?</p>
+
+<p>What kind of workflow?</p>
+
+<p>What have you learned?</p>
+
+<p>What insights do others have to help improve on the project?</p>
+
+<p>Talk.</p>
+
+<h3>Talk to the public.</h3>
+
+<p>You are Working on an amazing thing. Share what you are doing. Do a show n
+tell and mostly show how much you love the art you produced.</p>
+
+<p>Why do you love it?</p>
+
+<p>Was it the process?</p>
+
+<p>The experimental technology you used?</p>
+
+<p>The people/brand/product behind it?</p>
+
+<blockquote></blockquote>
+
+<p>Don't be a cubicle drone developer. Be a show and tell developer.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Noobs should love Coffeescript in Rails 3.1, not hate]]></title>
+    <link href="http://zackyap.github.com/blog/2011/05/25/noobs-should-love-coffeescript-in-rails-3-1-not-hate/"/>
+    <updated>2011-05-25T17:40:59+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/05/25/noobs-should-love-coffeescript-in-rails-3-1-not-hate</id>
+    <content type="html"><![CDATA[<p>I looked at Coffeescript code and loved the neatness and cleanliness of it. So
+I kept wondering why I read about backlash when it was announced as the
+standard for Rails 3.1. I did a bit of research and realized that most
+developers didn't want to make big changes to their boiler templates or come
+up with new ones and opting out through the gemfile was not intuitive. (Or at
+least these were some of the arguments)</p>
+
+<p>The other was that new people learning Rails would be confused. This I
+definitely do not agree with because the way that Coffeescript translates to
+Javascript looks pretty intuitive and the language is easy for new learners to
+read and understand. I don't think it is going to be a barrier for newbies.</p>
+
+<p>I personally like it. :)</p>
+]]></content>
+  </entry>
+  
+</feed>

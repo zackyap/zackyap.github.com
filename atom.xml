@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Zack Zack Zenith]]></title>
+  <title><![CDATA[Zack's Quest]]></title>
   <link href="http://zackyap.github.com/atom.xml" rel="self"/>
   <link href="http://zackyap.github.com/"/>
-  <updated>2011-12-07T04:20:13+08:00</updated>
+  <updated>2011-12-07T13:27:10+08:00</updated>
   <id>http://zackyap.github.com/</id>
   <author>
     <name><![CDATA[Zack Yap -- @zackyap]]></name>
@@ -12,5 +12,448 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Plugins un-plugged?]]></title>
+    <link href="http://zackyap.github.com/blog/2011/09/16/plugins-un-plugged/"/>
+    <updated>2011-09-16T10:29:11+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/09/16/plugins-un-plugged</id>
+    <content type="html"><![CDATA[<p>Microsoft&#8217;s announcement that plug ins will not be supported in the METRO
+version of IE10 can be important news, depending on whether or not you believe
+that METRO will be the UI of the future. The desktop view version of IE10 will
+continue to support Flash.</p>
+
+<p>According to their research, 62% of video sites have some form of HTML5
+fallback, however we can still be quite sure that a large percentage of sites
+still use Flash for myriad purposes. One of which is advertising and this will
+be greatly affected when browsers and devices continuously drops support for
+Flash, and is likely to happen in the near future judging from recent
+sentiments. Most advertisements are now done in Flash for the effects that can
+be created easily using Adobe&#8217;s Flash suite.</p>
+
+<p>The industry will have to step up fast and switch to HTML5 and Javascript for
+development in the next few years. However, as browsers without plugin support
+becomes mainstream, I can imagine developers and clients having to spend more
+time and money on creating both Flash versions and HTML fallback of their
+creations.</p>
+
+<p>Nonetheless, it seems like the end of an era is nigh upon us. Web sites and
+content that load quickly and isn&#8217;t cumbersome should be the focus. The giants
+have spoken.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby on Rails 3.1 Released]]></title>
+    <link href="http://zackyap.github.com/blog/2011/08/31/ruby-on-rails-3-1-released/"/>
+    <updated>2011-08-31T11:35:51+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/08/31/ruby-on-rails-3-1-released</id>
+    <content type="html"><![CDATA[<p><img src="https://img.skitch.com/20110831-e7yx1i7nqkgtpwwimd9frxd26w.preview.jpg" alt="" /></p>
+
+<p>Hello there!</p>
+
+<p>I&#8217;ve been waiting on you a long time now, <a href="http://guides.rubyonrails.org/3_1_release_notes.html">Rails
+3.1</a>.</p>
+
+<p>Now now, can&#8217;t wait to get my hands on the latest version of <a href="http://www.manning.com/katz/">Rails 3 in
+Action</a> and dig my head into Rails 3.1
+documentation as well.</p>
+
+<p>I guess my plan to complete Dragon Age : Origins is in ashes.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Talkative Developer]]></title>
+    <link href="http://zackyap.github.com/blog/2011/08/12/the-talkative-developer/"/>
+    <updated>2011-08-12T15:33:43+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/08/12/the-talkative-developer</id>
+    <content type="html"><![CDATA[<p>Your job scope requires you to sit behind a huge monitor and bury yourself in
+code. That basically means you build things, in CODE. And what the code
+renders, is ART. Interactive art and possibly the most modern, most advanced
+art form.</p>
+
+<p>As developers, we need to be very talkative about the project we are working
+on.</p>
+
+<h3>Talk to relevant stakeholders.</h3>
+
+<p>Your client, your managers, your peers, tell them what you are doing, solicit
+feedback.</p>
+
+<p>Tell them your vision.</p>
+
+<p>Tell them what you think would work or won&#8217;t.</p>
+
+<p>Don&#8217;t wait till the end to start talking.</p>
+
+<p>Keep communicating. Keep telling.</p>
+
+<h3>Talk to other developers.</h3>
+
+<p>Again, tell them what you are doing.</p>
+
+<p>What technology you are using.</p>
+
+<p>What language?</p>
+
+<p>What kind of workflow?</p>
+
+<p>What have you learned?</p>
+
+<p>What insights do others have to help improve on the project?</p>
+
+<p>Talk.</p>
+
+<h3>Talk to the public.</h3>
+
+<p>You are Working on an amazing thing. Share what you are doing. Do a show n
+tell and mostly show how much you love the art you produced.</p>
+
+<p>Why do you love it?</p>
+
+<p>Was it the process?</p>
+
+<p>The experimental technology you used?</p>
+
+<p>The people/brand/product behind it?</p>
+
+<blockquote></blockquote>
+
+<p>Don&#8217;t be a cubicle drone developer. Be a show and tell developer.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hold less poisonous meetings]]></title>
+    <link href="http://zackyap.github.com/blog/2011/08/12/hold-less-poisonous-meetings/"/>
+    <updated>2011-08-12T00:48:51+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/08/12/hold-less-poisonous-meetings</id>
+    <content type="html"><![CDATA[<p>Unproductive meetings as we know suck up the souls of productive beings. We
+should always make sure that if we held meetings, they should be meaningful
+and have a purpose for everyone present. Else, it is way better to drop notes
+to the other parties and have them read it.</p>
+
+<blockquote><p>No, we do not understand better by talking face to face with each other
+unless we want to know how each other is feeling about something, or there is
+something that needs to be shown.</p></blockquote>
+
+<p>Yes, most meetings are poisonous. It is usually productive time loss of about
+30mins to an hour x the number of people in the meeting. So it is always
+important to think about how important a meeting is.</p>
+
+<p>So before you send out the meeting invite:</p>
+
+<h3>What is it that you want to accomplish in the meeting?</h3>
+
+<p>What is this meeting about? Does everyone know what it is about and why they
+are at the meeting? Does everyone know what they should take away from the
+meeting or how they can contribute to it?</p>
+
+<h3>Is it important enough to take away hours of productive time?</h3>
+
+<p>Meet with only those in the team that absolutely needs to be there. Leave the
+rest alone. If they only need to know the conclusions to the meeting, drop
+them a note after.</p>
+
+<h2>#</h2>
+
+<blockquote><h2>An even better way? Just send them a message.</h2></blockquote>
+
+<h3>Can what you want to say be understood easily through writing?</h3>
+
+<p>Just go drop a note to the team in short, concise, simple English. They will
+appreciate it and if they have a question they just have to sound out back to
+you. What makes you think they will have questions right on the spot anyway?
+If they can&#8217;t even process what you&#8217;ve said with ease, they will just be more
+confused.</p>
+
+<h3>Can what you say be understood better through illustrations?</h3>
+
+<p>Would it be better if you can screenshot / use illustrations to show what you
+want to say? Send that along. It helps <strong>100%</strong> and more. People are visual
+creatures. It is much easier to understand something in visual form. Everyone
+interprets words their own way. Images are concrete. That is why wireframes
+work much better than verbal explanations.</p>
+
+<h2>#</h2>
+
+<blockquote><p>Seriously, just keep those meetings to a minimum. Highly productive people
+will appreciate it.</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Follow, Google +1 and the other buttons]]></title>
+    <link href="http://zackyap.github.com/blog/2011/06/03/twitter-follow-google-1-and-the-other-buttons/"/>
+    <updated>2011-06-03T18:35:08+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/06/03/twitter-follow-google-1-and-the-other-buttons</id>
+    <content type="html"><![CDATA[<p>Twitter has launched the “Follow” button.</p>
+
+<p>Using one of our &#8220;favourite&#8221; celebrities as example, clicking on it brings up
+a pop-up page that allows you to follow a site&#8217;s primary account. (I’m still
+trying to get the Baby Baby tune out of my head… oh wait… is that girl trying
+to **** his ear? Damn his twitter page is supposed to be PG!)</p>
+
+<p><a href="http://zackyap.com/wp-content/uploads/2011/06/justinbieber-%0Afollow.jpg"><img src="http://zackyap.com/wp-content/uploads/2011/06/justinbieber-%0Afollow.jpg" alt="" /></a></p>
+
+<p>The Follow button can and probably will be a new standard button to be used on
+campaigns with their dedicated Twitter accounts.</p>
+
+<p><img src="http://zackyap.com/wp-content/uploads/2011/06/google-1-button-290x290.jpg" alt="" /></p>
+
+<p>Google’s +1 button is launched as well, which will probably be another
+standard for digital campaigns and in fact almost most sites will need this
+due to the possible effects on search ranking.</p>
+
+<p>So now, 5 buttons are important:</p>
+
+<ol>
+<li>Twitter Tweet</li>
+<li>Twitter Follow</li>
+<li>Google +1</li>
+<li>Facebook Like</li>
+<li>Facebook Recommend</li>
+</ol>
+
+
+<p>Twitter Tweet is important more on a content basis.</p>
+
+<p>Twitter Follow is important for a specific account that belongs to the site.
+(Campaign account? Brand account?)</p>
+
+<p>Facebook Like/Recommend are pretty well rounded. (Can be for content / site)</p>
+
+<p>Google +1 would be almost everywhere because of effect on search ranking.</p>
+
+<p>What other buttons will come and will future websites be a smorgasbord of all
+kinds of buttons? I guess for gamers that love Zynga games, that&#8217;ll be a big
+welcome since they love clicking. Non-stop.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Google shows it's not easy getting the right cash cow]]></title>
+    <link href="http://zackyap.github.com/blog/2011/06/01/google-shows-its-not-easy-getting-the-right-cash-cow/"/>
+    <updated>2011-06-01T11:03:33+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/06/01/google-shows-its-not-easy-getting-the-right-cash-cow</id>
+    <content type="html"><![CDATA[<p>Google is the perfect example, showing us how difficult it is to get that one
+product right that will rake in the cash like no tomorrow. Google has
+developed tons of products as the internet giant it is but its Search and Word
+Ads are still its main cash cow.</p>
+
+<p>Despite all the innovation one can churn out, it is just that difficult to
+know what a market would pick up on at a certain time. What I mean to say is
+that getting that right product fit actually requires a percentage of luck.</p>
+
+<p>Whether you are using the lean startup methodology or the stealth mode mega-
+launch, the element of luck is there. Lean startup probably helps make sure
+you at least have a product that someone will be using, but it definitely
+cannot guarantee that you will grow big.</p>
+
+<p>No one can know for sure what the next big thing is. But like poker, in the
+lottery of tech startups you just gotta start building for that ticket. Being
+good multiplies your chances of course.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Noobs should love Coffeescript in Rails 3.1, not hate]]></title>
+    <link href="http://zackyap.github.com/blog/2011/05/25/noobs-should-love-coffeescript-in-rails-3-1-not-hate/"/>
+    <updated>2011-05-25T17:40:59+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/05/25/noobs-should-love-coffeescript-in-rails-3-1-not-hate</id>
+    <content type="html"><![CDATA[<p>I looked at Coffeescript code and loved the neatness and cleanliness of it. So
+I kept wondering why I read about backlash when it was announced as the
+standard for Rails 3.1. I did a bit of research and realized that most
+developers didn&#8217;t want to make big changes to their boiler templates or come
+up with new ones and opting out through the gemfile was not intuitive. (Or at
+least these were some of the arguments)</p>
+
+<p>The other was that new people learning Rails would be confused. This I
+definitely do not agree with because the way that Coffeescript translates to
+Javascript looks pretty intuitive and the language is easy for new learners to
+read and understand. I don&#8217;t think it is going to be a barrier for newbies.</p>
+
+<p>I personally like it. :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rails 3 Cheatsheet by Envy Labs]]></title>
+    <link href="http://zackyap.github.com/blog/2011/05/19/5634582064/"/>
+    <updated>2011-05-19T04:44:00+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/05/19/5634582064</id>
+    <content type="html"><![CDATA[<p>Link: <a href="http://blog.envylabs.com/2010/12/rails-3-cheat-sheets/">Rails 3 Cheatsheet by Envy
+Labs</a></p>
+
+<p>Cheatsheets is like a quick reference for newbies like me. This one for Rails
+3 by Envy Labs is pure gold.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Creating Desirability]]></title>
+    <link href="http://zackyap.github.com/blog/2011/03/15/creating-desirability/"/>
+    <updated>2011-03-15T01:38:38+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/03/15/creating-desirability</id>
+    <content type="html"><![CDATA[<blockquote><p>“It [Zune] plays music just like an iPod! Why don’t people get this? I don’t
+know why people want this one chunk of plastic over the chunk of plastic that
+I make?!” – Bill Gates character in Charlie and the Apple Factory</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Asian Tech Startup Conundrum]]></title>
+    <link href="http://zackyap.github.com/blog/2011/03/14/the-asian-tech-startup-conundrum/"/>
+    <updated>2011-03-14T21:21:53+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/03/14/the-asian-tech-startup-conundrum</id>
+    <content type="html"><![CDATA[<p>Today, I read a tweet by <a href="http://twitter.com/jasonong">Jason Ong</a> Singapore
+Ruby Brigade. He questioned his friend on why he didn&#8217;t pursue starting up a
+promising idea. His friends answer was : &#8220;can&#8217;t get thru arguing with parents&#8221;</p>
+
+<p>I think that this is a very real issue in an Asian context especially. The
+importance of family has been embroiled from young and filial piety is of
+utmost importance. Thus, it is more often than not that parents, even at our
+modern age, hold big influence on the things we do.</p>
+
+<p>The Asian parents are not unlike those from many other cultures who have
+slogged their whole lives just so that their family can lead comfortable
+lives. Those were times when nations were being built and fighting for
+survival meant more than building empires.</p>
+
+<p>Times have changed but the Asian parents&#8217; minds haven&#8217;t. They still want
+stable jobs for their kids and thus the best paying jobs like doctors, lawyers
+and bankers are seen as the best careers to pursue. Entrepreneurship is too
+risky, especially so in a society that does not accept any form of failure.
+This concept is proven true by the education systems employed.</p>
+
+<p>Of course, there are also a number of other discouraging factors:</p>
+
+<ol>
+<li>There are very few high profile large figure exits that have happened in the region. It might be harder to convince the family the worth of the risk vs the reward.</li>
+<li>Pushing beyond the early adopters in the region is comparatively harder. There is a smaller market of early adopters and making early stage survival a tough fight. The rapid take up rate of smartphones might change this however, as apps are easily accessible.</li>
+<li>Everyone else in society doesn&#8217;t believe in the path of entrepreneurship. When holding a conversation with an extended family member or their friends and they ask you what you do, if you answer with a full time job where you work hard day and night, they nod their heads with approval that you have found a stable job and are now set for life. If you answered excitedly that you are an entrepreneur and that you are building the next big thing, they&#8217;d likely experience a fluster and a frantic moment hiding their disapproval and wondering how not to look like they are in absolute horror. To the Asian society, being an entrepreneur can almost equate to one not doing any work, or being out of work. In a society where &#8220;face&#8221; is of utmost importance, it becomes all the more difficult. Parents want the easy way out. They want to tell their friends and family that their son/daughter is holding a well paying job.
+That said, it becomes even more apparent that Asian entrepreneurs have to be a
+special breed of rebels and revolutionaries who can break past all the
+difficulties placed to stop them in their tracks.</li>
+</ol>
+
+
+<p>With enough hunger, I am sure that it is possible to break past &#8220;The Parent
+Trap&#8221;.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iOS4.3 update arrives to give us Personal Wi-Fi Hotspots]]></title>
+    <link href="http://zackyap.github.com/blog/2011/03/10/ios4-3-update-arrives-to-give-us-personal-wi-fi-hotspots/"/>
+    <updated>2011-03-10T16:43:28+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/03/10/ios4-3-update-arrives-to-give-us-personal-wi-fi-hotspots</id>
+    <content type="html"><![CDATA[<p><a href="http://zackyap.com/wp-%0Acontent/uploads/2011/03/ios4-3.jpg">[<img src="http://zackyap.com/wp-%0Acontent/uploads/2011/03/ios4-3.jpg" alt="ios4-3" />](http://zackyap.com/wp-
+content/uploads/2011/03/ios4-3.jpg)</a></p>
+
+<p>Image from <a href="http://engadget.com">engadget</a>.Latest iOS update is up and running
+and your iPhone should spot an iOS 4.3 software soon.</p>
+
+<p>Why? Checkout the iOS4.3 patch notes. Personal wifi hotspot, which means you
+can use your 3G network like a wifi hotspot, giving you 3G connection on the
+go as long as you have your iPhone with you.</p>
+
+<p>What&#8217;s not to like about that? Go update nao!!</p>
+
+<blockquote><p>iOS 4.3 Software Update</p></blockquote>
+
+<p>This update contains new features and improvements, including the following:</p>
+
+<p>• Personal Hotspot*  - Share iPhone 4 cellular data connection with up to 5
+devices (combination of up to 3 Wi-Fi, 3 Bluetooth,      and 1 USB)</p>
+
+<p>• iTunes Home Sharing  - Play music, movies and TV shows from a shared iTunes
+library on a Mac or PC (requires iTunes 10.2)</p>
+
+<p>• New AirPlay features**  - Play videos from the Photos app including the
+Camera      Roll album, iTunes previews, enabled third-party apps      and
+websites on Apple TV  - Play slideshows from Photos on Apple TV using
+transitions available on Apple TV</p>
+
+<p>• Faster Safari performance with Apple Nitro JavaScript   engine</p>
+
+<p>• HD video out using the Apple Digital AV Adapter***  - View 720p HD videos
+from Videos app, iPod app,      Photos, YouTube, Safari, Keynote, and enabled
+third-party apps on an HDMI display</p>
+
+<p>• Ping features  - Push notifications for comments and follow requests  - Post
+and Like songs directly from the Now Playing      screen  - Parental controls•
+New Settings  - Messages setting for number of times to repeat an      alert
+- iPad side switch setting to lock screen rotation or mute     audio
+notifications and sound effects</p>
+
+<p>• Single tap conference call dialing with a pause to send   a passcode</p>
+
+<p>• Bug fixes</p>
+
+<p>Products compatible with this software update:</p>
+
+<p>• iPhone 4 (GSM model)</p>
+
+<p>• iPhone 3GS</p>
+
+<p>• iPad</p>
+
+<p>• iPod touch (4th generation)</p>
+
+<p>• iPod touch (3rd generation)</p>
+
+<p><em>Requires iPhone 4 with tethering data plan<br/>
+<strong>Requires Apple TV (2nd generation) running software    version 4.2 or later<br/>
+</strong></em>iPhone 4, iPad, iPod touch (4th generation)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[42Goals.com an idea I wanted to work on]]></title>
+    <link href="http://zackyap.github.com/blog/2011/03/09/42goals-com-an-idea-i-wanted-to-work-on/"/>
+    <updated>2011-03-09T13:12:44+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/03/09/42goals-com-an-idea-i-wanted-to-work-on</id>
+    <content type="html"><![CDATA[<p><a href="http://zackyap.com/wp-%0Acontent/uploads/2011/03/goals42.jpg"><img src="http://zackyap.com/wp-%0Acontent/uploads/2011/03/goals42-300x136.jpg" alt="42goals" /></a></p>
+
+<p>I happened across <a href="http://www.42goals.com">this new web app</a> and through
+looking at the UI, I know that if I worked on the idea, this would have been
+what it is.</p>
+
+<p>At its core, it is a goal tracking app where you set up habits that you would
+like to cultivate and goals you want to achieve. On a daily basis, you would
+make updates to the app to indicate whether you have achieved your goal.</p>
+
+<p>Initial quick thoughts on this app:</p>
+
+<ol>
+<li>It can still be made simpler (simplify the view, really)</li>
+<li><del>This would be much better on mobile so that users update on the go</del> (edit: realized they have a mobile version)</li>
+<li>Statistics and graphs need to be easy for layman use</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mac rumor for today: iPad 2 announcement on 2nd March]]></title>
+    <link href="http://zackyap.github.com/blog/2011/02/23/mac-rumor-for-today-ipad-2-announcement-on-2nd-march/"/>
+    <updated>2011-02-23T17:02:42+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/02/23/mac-rumor-for-today-ipad-2-announcement-on-2nd-march</id>
+    <content type="html"><![CDATA[<p><a href="http://zackyap.com/wp-content/uploads/2011/02/apple_ipad_3g.jpg"><img src="http://zackyap.com/wp-content/uploads/2011/02/apple_ipad_3g-%0A300x174.jpg" alt="ipad" /></a></p>
+
+<p>The latest news is that March 2nd&#8217;s Apple event will be for the announcement
+of this year&#8217;s iPad. Of course, there are also other rumors that <a href="http://techcrunch.com/2011/02/09/ipad-3/">this won&#8217;t
+be the only release of iPad for the
+year</a>, which means that iPad 3 (or
+iPad 2.5) will also be released later this year.</p>
+
+<p>This rendition of the iPad is rumored to be faster, includes front and back
+cam and comes with high def screen.</p>
+
+<p>Will definitely be up to look at Live Updates on March 2nd night.</p>
+]]></content>
+  </entry>
   
 </feed>
