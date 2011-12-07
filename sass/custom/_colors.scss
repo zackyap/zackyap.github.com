@@ -2,18 +2,27 @@
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
 // If you need a handy color picker try http://hslpicker.com
 
-//$header-bg: #263347;
-//$subtitle-color: lighten($header-bg, 58);
-//$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
-//$nav-bg-front: image-url('noise.png');
+$header-bg: #306E73;
+$subtitle-color: lighten($header-bg, 54);
+$nav-bg: desaturate(lighten(#B29C85, 18), 5);
+// $nav-bg-front: image-url('square_bg.png');
 //$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
 //$sidebar-bg: desaturate(#eceff5, 8);
-//$sidebar-link-color: saturate(#526f9a, 10);
-//$sidebar-link-color-hover: darken(#7ab662, 9);
+$sidebar-link-color: saturate(#FF5335, 10);
+$sidebar-link-color-hover: darken(#1D181F, 9);
 //$footer-bg: #ccc !default;
 //$footer-bg-front: image-url('noise.png');
 //$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
 
+
+// Main Section Colors
+$main-bg: #3B424C;
+
+$text-color: #FF5335;
+p { color: #fff; }
+
+#tweets p { color: #3B424C;}
+aside.sidebar h1 { color: #3B424C;}
 
 /* To use the light Solarized highlighting theme uncomment the following line */
 //$solarized: light;
@@ -22,7 +31,7 @@
 //$base03:          #002b36; //darkest blue
 //$base02:          #073642; //dark blue
 //$base01:          #586e75; //darkest gray
-//$base00:          #657b83; //dark gray
+// $base00:          #657b83; //dark gray
 //$base0:           #839496; //medium gray
 //$base1:           #93a1a1; //medium light gray
 //$base2:           #eee8d5; //cream
