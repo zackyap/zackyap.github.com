@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Zack's Quest]]></title>
   <link href="http://zackyap.github.com/blog/categories/technology/atom.xml" rel="self"/>
   <link href="http://zackyap.github.com/"/>
-  <updated>2011-12-07T15:10:31+08:00</updated>
+  <updated>2011-12-07T15:14:58+08:00</updated>
   <id>http://zackyap.github.com/</id>
   <author>
     <name><![CDATA[Zack Yap -- @zackyap]]></name>
@@ -18,28 +18,15 @@
     <link href="http://zackyap.github.com/blog/2011/09/16/plugins-un-plugged/"/>
     <updated>2011-09-16T10:29:11+08:00</updated>
     <id>http://zackyap.github.com/blog/2011/09/16/plugins-un-plugged</id>
-    <content type="html"><![CDATA[<p>Microsoft's announcement that plug ins will not be supported in the METRO
-version of IE10 can be important news, depending on whether or not you believe
-that METRO will be the UI of the future. The desktop view version of IE10 will
+    <content type="html"><![CDATA[<p>Microsoft's announcement that plug ins will not be supported in the METRO version of IE10 can be important news, depending on whether or not you believe that METRO will be the UI of the future. The desktop view version of IE10 will
 continue to support Flash.</p>
 
-<p>According to their research, 62% of video sites have some form of HTML5
-fallback, however we can still be quite sure that a large percentage of sites
-still use Flash for myriad purposes. One of which is advertising and this will
-be greatly affected when browsers and devices continuously drops support for
-Flash, and is likely to happen in the near future judging from recent
-sentiments. Most advertisements are now done in Flash for the effects that can
-be created easily using Adobe's Flash suite.</p>
+<p>According to their research, 62% of video sites have some form of HTML5 fallback, however we can still be quite sure that a large percentage of sites still use Flash for myriad purposes. One of which is advertising and this will be greatly affected when browsers and devices continuously drops support for Flash, and is likely to happen in the near future judging from recent sentiments. Most advertisements are now done in Flash for the effects that can be created easily using Adobe's Flash suite.</p>
 
-<p>The industry will have to step up fast and switch to HTML5 and Javascript for
-development in the next few years. However, as browsers without plugin support
-becomes mainstream, I can imagine developers and clients having to spend more
-time and money on creating both Flash versions and HTML fallback of their
+<p>The industry will have to step up fast and switch to HTML5 and Javascript for development in the next few years. However, as browsers without plugin support becomes mainstream, I can imagine developers and clients having to spend more time and money on creating both Flash versions and HTML fallback of their
 creations.</p>
 
-<p>Nonetheless, it seems like the end of an era is nigh upon us. Web sites and
-content that load quickly and isn't cumbersome should be the focus. The giants
-have spoken.</p>
+<p>Nonetheless, it seems like the end of an era is nigh upon us. Web sites and content that load quickly and isn't cumbersome should be the focus. The giants have spoken.</p>
 ]]></content>
   </entry>
   
@@ -69,12 +56,8 @@ have spoken.</p>
 
 <p>Using one of our "favourite" celebrities as example, clicking on it brings up a pop-up page that allows you to follow a site's primary account. (I’m still trying to get the Baby Baby tune out of my head… oh wait… is that girl trying to **** his ear? Damn his twitter page is supposed to be PG!)</p>
 
-<p><a href="http://zackyap.com/wp-content/uploads/2011/06/justinbieber-follow.jpg"><img src="http://zackyap.com/wp-content/uploads/2011/06/justinbieber-follow.jpg" alt="" /></a></p>
-
 <p>The Follow button can and probably will be a new standard button to be used on
 campaigns with their dedicated Twitter accounts.</p>
-
-<p><img src="http://zackyap.com/wp-content/uploads/2011/06/google-1-button-290x290.jpg" alt="" /></p>
 
 <p>Google’s +1 button is launched as well, which will probably be another standard for digital campaigns and in fact almost most sites will need this due to the possible effects on search ranking.</p>
 

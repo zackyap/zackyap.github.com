@@ -4,7 +4,7 @@
   <title><![CDATA[Zack's Quest]]></title>
   <link href="http://zackyap.github.com/atom.xml" rel="self"/>
   <link href="http://zackyap.github.com/"/>
-  <updated>2011-12-07T15:10:31+08:00</updated>
+  <updated>2011-12-07T15:14:58+08:00</updated>
   <id>http://zackyap.github.com/</id>
   <author>
     <name><![CDATA[Zack Yap -- @zackyap]]></name>
@@ -18,28 +18,15 @@
     <link href="http://zackyap.github.com/blog/2011/09/16/plugins-un-plugged/"/>
     <updated>2011-09-16T10:29:11+08:00</updated>
     <id>http://zackyap.github.com/blog/2011/09/16/plugins-un-plugged</id>
-    <content type="html"><![CDATA[<p>Microsoft&#8217;s announcement that plug ins will not be supported in the METRO
-version of IE10 can be important news, depending on whether or not you believe
-that METRO will be the UI of the future. The desktop view version of IE10 will
+    <content type="html"><![CDATA[<p>Microsoft&#8217;s announcement that plug ins will not be supported in the METRO version of IE10 can be important news, depending on whether or not you believe that METRO will be the UI of the future. The desktop view version of IE10 will
 continue to support Flash.</p>
 
-<p>According to their research, 62% of video sites have some form of HTML5
-fallback, however we can still be quite sure that a large percentage of sites
-still use Flash for myriad purposes. One of which is advertising and this will
-be greatly affected when browsers and devices continuously drops support for
-Flash, and is likely to happen in the near future judging from recent
-sentiments. Most advertisements are now done in Flash for the effects that can
-be created easily using Adobe&#8217;s Flash suite.</p>
+<p>According to their research, 62% of video sites have some form of HTML5 fallback, however we can still be quite sure that a large percentage of sites still use Flash for myriad purposes. One of which is advertising and this will be greatly affected when browsers and devices continuously drops support for Flash, and is likely to happen in the near future judging from recent sentiments. Most advertisements are now done in Flash for the effects that can be created easily using Adobe&#8217;s Flash suite.</p>
 
-<p>The industry will have to step up fast and switch to HTML5 and Javascript for
-development in the next few years. However, as browsers without plugin support
-becomes mainstream, I can imagine developers and clients having to spend more
-time and money on creating both Flash versions and HTML fallback of their
+<p>The industry will have to step up fast and switch to HTML5 and Javascript for development in the next few years. However, as browsers without plugin support becomes mainstream, I can imagine developers and clients having to spend more time and money on creating both Flash versions and HTML fallback of their
 creations.</p>
 
-<p>Nonetheless, it seems like the end of an era is nigh upon us. Web sites and
-content that load quickly and isn&#8217;t cumbersome should be the focus. The giants
-have spoken.</p>
+<p>Nonetheless, it seems like the end of an era is nigh upon us. Web sites and content that load quickly and isn&#8217;t cumbersome should be the focus. The giants have spoken.</p>
 ]]></content>
   </entry>
   
@@ -129,7 +116,7 @@ something that needs to be shown.</p></blockquote>
 
 <p>Meet with only those in the team that absolutely needs to be there. Leave the rest alone. If they only need to know the conclusions to the meeting, drop them a note after.</p>
 
-<blockquote><h2>An even better way? Just send them a message.</h2></blockquote>
+<blockquote><p>An even better way? Just send them a message.</p></blockquote>
 
 <h3>Can what you want to say be understood easily through writing?</h3>
 
@@ -154,12 +141,8 @@ work much better than verbal explanations.</p>
 
 <p>Using one of our &#8220;favourite&#8221; celebrities as example, clicking on it brings up a pop-up page that allows you to follow a site&#8217;s primary account. (I’m still trying to get the Baby Baby tune out of my head… oh wait… is that girl trying to **** his ear? Damn his twitter page is supposed to be PG!)</p>
 
-<p><a href="http://zackyap.com/wp-content/uploads/2011/06/justinbieber-follow.jpg"><img src="http://zackyap.com/wp-content/uploads/2011/06/justinbieber-follow.jpg" alt="" /></a></p>
-
 <p>The Follow button can and probably will be a new standard button to be used on
 campaigns with their dedicated Twitter accounts.</p>
-
-<p><img src="http://zackyap.com/wp-content/uploads/2011/06/google-1-button-290x290.jpg" alt="" /></p>
 
 <p>Google’s +1 button is launched as well, which will probably be another standard for digital campaigns and in fact almost most sites will need this due to the possible effects on search ranking.</p>
 
@@ -219,8 +202,7 @@ campaigns with their dedicated Twitter accounts.</p>
     <link href="http://zackyap.github.com/blog/2011/05/19/5634582064/"/>
     <updated>2011-05-19T04:44:00+08:00</updated>
     <id>http://zackyap.github.com/blog/2011/05/19/5634582064</id>
-    <content type="html"><![CDATA[<p>Link: <a href="http://blog.envylabs.com/2010/12/rails-3-cheat-sheets/">Rails 3 Cheatsheet by Envy
-Labs</a></p>
+    <content type="html"><![CDATA[<p>Link: <a href="http://blog.envylabs.com/2010/12/rails-3-cheat-sheets/">Rails 3 Cheatsheet by EnvyLabs</a></p>
 
 <p>Cheatsheets is like a quick reference for newbies like me. This one for Rails
 3 by Envy Labs is pure gold.</p>
@@ -269,8 +251,12 @@ Labs</a></p>
     <link href="http://zackyap.github.com/blog/2011/03/10/ios4-3-update-arrives-to-give-us-personal-wi-fi-hotspots/"/>
     <updated>2011-03-10T16:43:28+08:00</updated>
     <id>http://zackyap.github.com/blog/2011/03/10/ios4-3-update-arrives-to-give-us-personal-wi-fi-hotspots</id>
-    <content type="html"><![CDATA[<p><a href="http://zackyap.com/wp-%0Acontent/uploads/2011/03/ios4-3.jpg">[<img src="http://zackyap.com/wp-%0Acontent/uploads/2011/03/ios4-3.jpg" alt="ios4-3" />](http://zackyap.com/wp-
-content/uploads/2011/03/ios4-3.jpg)</a></p>
+    <content type="html"><![CDATA[<!-- [[![ios4-3](http://zackyap.com/wp-
+content/uploads/2011/03/ios4-3.jpg)](http://zackyap.com/wp-
+content/uploads/2011/03/ios4-3.jpg)](http://zackyap.com/wp-
+content/uploads/2011/03/ios4-3.jpg)
+ -->
+
 
 <p>Image from <a href="http://engadget.com">engadget</a>.Latest iOS update is up and running
 and your iPhone should spot an iOS 4.3 software soon.</p>
@@ -335,7 +321,9 @@ notifications and sound effects</p>
     <link href="http://zackyap.github.com/blog/2011/03/09/42goals-com-an-idea-i-wanted-to-work-on/"/>
     <updated>2011-03-09T13:12:44+08:00</updated>
     <id>http://zackyap.github.com/blog/2011/03/09/42goals-com-an-idea-i-wanted-to-work-on</id>
-    <content type="html"><![CDATA[<p><a href="http://zackyap.com/wp-content/uploads/2011/03/goals42.jpg"><img src="http://zackyap.com/wp-content/uploads/2011/03/goals42-300x136.jpg" alt="42goals" /></a></p>
+    <content type="html"><![CDATA[<!-- [![42goals](http://zackyap.com/wp-content/uploads/2011/03/goals42-300x136.jpg)](http://zackyap.com/wp-content/uploads/2011/03/goals42.jpg)
+ -->
+
 
 <p>I happened across <a href="http://www.42goals.com">this new web app</a> and through looking at the UI, I know that if I worked on the idea, this would have been what it is.</p>
 
@@ -357,9 +345,7 @@ notifications and sound effects</p>
     <link href="http://zackyap.github.com/blog/2011/02/23/mac-rumor-for-today-ipad-2-announcement-on-2nd-march/"/>
     <updated>2011-02-23T17:02:42+08:00</updated>
     <id>http://zackyap.github.com/blog/2011/02/23/mac-rumor-for-today-ipad-2-announcement-on-2nd-march</id>
-    <content type="html"><![CDATA[<p><a href="http://zackyap.com/wp-content/uploads/2011/02/apple_ipad_3g.jpg"><img src="http://zackyap.com/wp-content/uploads/2011/02/apple_ipad_3g-%0A300x174.jpg" alt="ipad" /></a></p>
-
-<p>The latest news is that March 2nd&#8217;s Apple event will be for the announcement
+    <content type="html"><![CDATA[<p>The latest news is that March 2nd&#8217;s Apple event will be for the announcement
 of this year&#8217;s iPad. Of course, there are also other rumors that <a href="http://techcrunch.com/2011/02/09/ipad-3/">this won&#8217;t
 be the only release of iPad for the
 year</a>, which means that iPad 3 (or
