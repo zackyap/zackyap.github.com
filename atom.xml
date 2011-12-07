@@ -4,7 +4,7 @@
   <title><![CDATA[Zack's Quest]]></title>
   <link href="http://zackyap.github.com/atom.xml" rel="self"/>
   <link href="http://zackyap.github.com/"/>
-  <updated>2011-12-08T00:43:39+08:00</updated>
+  <updated>2011-12-08T00:48:54+08:00</updated>
   <id>http://zackyap.github.com/</id>
   <author>
     <name><![CDATA[Zack Yap -- @zackyap]]></name>
@@ -44,9 +44,7 @@
 
 <p><strong><strong> 3. Export and convert WordPress blog posts you want to migrate </strong></strong></p>
 
-<p>Export WordPress blog entries you want to migrate and use <a href="https://github.com/thomasf/exitwp">exitwp</a> to convert them to markdown.</p>
-
-<p>Put the converted entries into your source/_posts folder.</p>
+<p>Export WordPress blog entries you want to migrate and use <a href="https://github.com/thomasf/exitwp">exitwp</a> to convert them to markdown.  Put the converted entries into your <code>source/_posts</code> folder.</p>
 
 <p><strong><strong> 4. Set up a Github page </strong></strong></p>
 
