@@ -4,7 +4,7 @@
   <title><![CDATA[Zack's Quest]]></title>
   <link href="http://zackyap.github.com/atom.xml" rel="self"/>
   <link href="http://zackyap.github.com/"/>
-  <updated>2011-12-07T22:37:30+08:00</updated>
+  <updated>2011-12-08T00:33:04+08:00</updated>
   <id>http://zackyap.github.com/</id>
   <author>
     <name><![CDATA[Zack Yap -- @zackyap]]></name>
@@ -12,6 +12,84 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Setting up the blog using Octopress]]></title>
+    <link href="http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress/"/>
+    <updated>2011-12-07T13:49:00+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress</id>
+    <content type="html"><![CDATA[<p><img src="https://img.skitch.com/20111207-p8sni6h2eyyac4dg65wpmpahx8.jpg" alt="Zack's Quest" /></p>
+
+<p>I&#8217;ve been wanting to migrate the blog from Wordpress over to a Jekyll/Octopress blogging framework for tech geeks but haven&#8217;t really had the time with my crazy schedules.</p>
+
+<p>And then I realized it doesn&#8217;t actually take too much time to set Octopress up and deploy, especially if you are deploying to Github pages or Heroku.</p>
+
+<p>If you&#8217;re looking to migrate from Wordpress as well, here&#8217;s an outline of the steps I took:</p>
+
+<p><strong><strong> 1. Make sure you have Ruby 1.9.2+ and Clone Octopress </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 2. Install dependencies and install the default Ocotpress theme </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>bundle install
+</span><span class='line'>rake install</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 3. Export and convert WordPress blog posts you want to migrate </strong></strong></p>
+
+<p>Export WordPress blog entries you want to migrate and use <img src="https://github.com/thomasf/exitwp" alt="exitwp" /> to convert them to markdown.</p>
+
+<p>Put the converted entries into your source/_posts folder.</p>
+
+<p><strong><strong> 4. Set up a Github page </strong></strong></p>
+
+<p>If you want a Github page with subdomain called username/organization, set up a Github repository like <code>username.github.com</code> or <code>organization.github.com</code>
+Next, run Octopress&#8217;s Github Pages setup:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It will ask you for your Github repository URL so throw in the SSH URL for your Github repository.</p>
+
+<p><strong><strong> 5. Generate the blog and deploy </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 6. Commit the source of your blog </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git add .
+</span><span class='line'>git commit -m 'your message'
+</span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 7. View your blog on local </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 8. Set up your custom domain </strong></strong></p>
+
+<p>I&#8217;ll leave this to you with Octopress&#8217;s own instructions at <img src="http://octopress.org/docs/deploying/github#custom_domains" alt="Custom Domains" />.</p>
+
+<p>Enjoy!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Plugins un-plugged?]]></title>

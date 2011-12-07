@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Mac rumor for today: iPad 2 announcement on 2nd March - Zack's Quest</title>
+  <title>Setting up the blog using Octopress - Zack's Quest</title>
   <meta name="author" content="Zack Yap -- @zackyap">
 
   
-  <meta name="description" content="The latest news is that March 2nd&#8217;s Apple event will be for the announcement
-of this year&#8217;s iPad. Of course, there are also other rumors &hellip;">
+  <meta name="description" content="I&#8217;ve been wanting to migrate the blog from Wordpress over to a Jekyll/Octopress blogging framework for tech geeks but haven&#8217;t really had &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ of this year&#8217;s iPad. Of course, there are also other rumors &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://zackyap.github.com/blog/2011/02/23/mac-rumor-for-today-ipad-2-announcement-on-2nd-march">
+  <link rel="canonical" href="http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -84,7 +83,7 @@ of this year&#8217;s iPad. Of course, there are also other rumors &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Mac Rumor for Today: iPad 2 Announcement on 2nd March</h1>
+      <h1 class="entry-title">Setting Up the Blog Using Octopress</h1>
     
     
       <p class="meta">
@@ -100,7 +99,7 @@ of this year&#8217;s iPad. Of course, there are also other rumors &hellip;">
   
 
 
-<time datetime="2011-02-23T17:02:42+08:00" pubdate data-updated="true">Feb 23<span>rd</span>, 2011</time>
+<time datetime="2011-12-07T13:49:00+08:00" pubdate data-updated="true">Dec 7<span>th</span>, 2011</time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -109,16 +108,76 @@ of this year&#8217;s iPad. Of course, there are also other rumors &hellip;">
   </header>
 
 
-<div class="entry-content"><p>The latest news is that March 2nd&#8217;s Apple event will be for the announcement
-of this year&#8217;s iPad. Of course, there are also other rumors that <a href="http://techcrunch.com/2011/02/09/ipad-3/">this won&#8217;t
-be the only release of iPad for the
-year</a>, which means that iPad 3 (or
-iPad 2.5) will also be released later this year.</p>
+<div class="entry-content"><p><img src="https://img.skitch.com/20111207-p8sni6h2eyyac4dg65wpmpahx8.jpg" alt="Zack's Quest" /></p>
 
-<p>This rendition of the iPad is rumored to be faster, includes front and back
-cam and comes with high def screen.</p>
+<p>I&#8217;ve been wanting to migrate the blog from Wordpress over to a Jekyll/Octopress blogging framework for tech geeks but haven&#8217;t really had the time with my crazy schedules.</p>
 
-<p>Will definitely be up to look at Live Updates on March 2nd night.</p>
+<p>And then I realized it doesn&#8217;t actually take too much time to set Octopress up and deploy, especially if you are deploying to Github pages or Heroku.</p>
+
+<p>If you&#8217;re looking to migrate from Wordpress as well, here&#8217;s an outline of the steps I took:</p>
+
+<p><strong><strong> 1. Make sure you have Ruby 1.9.2+ and Clone Octopress </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 2. Install dependencies and install the default Ocotpress theme </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>bundle install
+</span><span class='line'>rake install</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 3. Export and convert WordPress blog posts you want to migrate </strong></strong></p>
+
+<p>Export WordPress blog entries you want to migrate and use <img src="https://github.com/thomasf/exitwp" alt="exitwp" /> to convert them to markdown.</p>
+
+<p>Put the converted entries into your source/_posts folder.</p>
+
+<p><strong><strong> 4. Set up a Github page </strong></strong></p>
+
+<p>If you want a Github page with subdomain called username/organization, set up a Github repository like <code>username.github.com</code> or <code>organization.github.com</code>
+Next, run Octopress&#8217;s Github Pages setup:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It will ask you for your Github repository URL so throw in the SSH URL for your Github repository.</p>
+
+<p><strong><strong> 5. Generate the blog and deploy </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 6. Commit the source of your blog </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git add .
+</span><span class='line'>git commit -m 'your message'
+</span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 7. View your blog on local </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 8. Set up your custom domain </strong></strong></p>
+
+<p>I&#8217;ll leave this to you with Octopress&#8217;s own instructions at <img src="http://octopress.org/docs/deploying/github#custom_domains" alt="Custom Domains" />.</p>
+
+<p>Enjoy!</p>
 </div>
 
 
@@ -127,7 +186,7 @@ cam and comes with high def screen.</p>
       
   
 
-<span class="byline author vcard">Posted by <span class="fn">zackyap</span></span>
+<span class="byline author vcard">Posted by <span class="fn">Zack Yap -- @zackyap</span></span>
 
       
 
@@ -141,21 +200,15 @@ cam and comes with high def screen.</p>
   
 
 
-<time datetime="2011-02-23T17:02:42+08:00" pubdate data-updated="true">Feb 23<span>rd</span>, 2011</time>
+<time datetime="2011-12-07T13:49:00+08:00" pubdate data-updated="true">Dec 7<span>th</span>, 2011</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/technology/'>Technology</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://zackyap.github.com/blog/2011/02/23/mac-rumor-for-today-ipad-2-announcement-on-2nd-march/" data-via="zackyap" data-counturl="http://zackyap.github.com/blog/2011/02/23/mac-rumor-for-today-ipad-2-announcement-on-2nd-march/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress/" data-via="zackyap" data-counturl="http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress/" >Tweet</a>
   
   
   
@@ -166,12 +219,18 @@ cam and comes with high def screen.</p>
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2011/09/16/plugins-un-plugged/" title="Previous Post: Plugins un-plugged?">&laquo; Plugins un-plugged?</a>
       
-        <a class="basic-alignment right" href="/blog/2011/03/09/42goals-com-an-idea-i-wanted-to-work-on/" title="next Post: 42Goals.com an idea I wanted to work on">42Goals.com an idea I wanted to work on &raquo;</a>
       
     </p>
   </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -263,7 +322,10 @@ cam and comes with high def screen.</p>
       var disqus_shortname = 'zacksquest';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress/';
+        var disqus_url = 'http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

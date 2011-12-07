@@ -9,7 +9,7 @@
   <meta name="author" content="Zack Yap -- @zackyap">
 
   
-  <meta name="description" content="Microsoft&#8217;s announcement that plug ins will not be supported in the METRO version of IE10 can be important news, depending on whether or not &hellip;">
+  <meta name="description" content="I&#8217;ve been wanting to migrate the blog from Wordpress over to a Jekyll/Octopress blogging framework for tech geeks but haven&#8217;t really had &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,113 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/12/07/setting-up-the-blog-using-octopress/">Setting Up the Blog Using Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-07T13:49:00+08:00" pubdate data-updated="true">Dec 7<span>th</span>, 2011</time>
+        
+         | <a href="/blog/2011/12/07/setting-up-the-blog-using-octopress/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="https://img.skitch.com/20111207-p8sni6h2eyyac4dg65wpmpahx8.jpg" alt="Zack's Quest" /></p>
+
+<p>I&#8217;ve been wanting to migrate the blog from Wordpress over to a Jekyll/Octopress blogging framework for tech geeks but haven&#8217;t really had the time with my crazy schedules.</p>
+
+<p>And then I realized it doesn&#8217;t actually take too much time to set Octopress up and deploy, especially if you are deploying to Github pages or Heroku.</p>
+
+<p>If you&#8217;re looking to migrate from Wordpress as well, here&#8217;s an outline of the steps I took:</p>
+
+<p><strong><strong> 1. Make sure you have Ruby 1.9.2+ and Clone Octopress </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 2. Install dependencies and install the default Ocotpress theme </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>bundle install
+</span><span class='line'>rake install</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 3. Export and convert WordPress blog posts you want to migrate </strong></strong></p>
+
+<p>Export WordPress blog entries you want to migrate and use <img src="https://github.com/thomasf/exitwp" alt="exitwp" /> to convert them to markdown.</p>
+
+<p>Put the converted entries into your source/_posts folder.</p>
+
+<p><strong><strong> 4. Set up a Github page </strong></strong></p>
+
+<p>If you want a Github page with subdomain called username/organization, set up a Github repository like <code>username.github.com</code> or <code>organization.github.com</code>
+Next, run Octopress&#8217;s Github Pages setup:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It will ask you for your Github repository URL so throw in the SSH URL for your Github repository.</p>
+
+<p><strong><strong> 5. Generate the blog and deploy </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 6. Commit the source of your blog </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git add .
+</span><span class='line'>git commit -m 'your message'
+</span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 7. View your blog on local </strong></strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong><strong> 8. Set up your custom domain </strong></strong></p>
+
+<p>I&#8217;ll leave this to you with Octopress&#8217;s own instructions at <img src="http://octopress.org/docs/deploying/github#custom_domains" alt="Custom Domains" />.</p>
+
+<p>Enjoy!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -547,63 +654,6 @@ campaigns with their dedicated Twitter accounts.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/03/14/the-asian-tech-startup-conundrum/">The Asian Tech Startup Conundrum</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-03-14T21:21:53+08:00" pubdate data-updated="true">Mar 14<span>th</span>, 2011</time>
-        
-         | <a href="/blog/2011/03/14/the-asian-tech-startup-conundrum/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today, I read a tweet by <a href="http://twitter.com/jasonong">Jason Ong</a> Singapore Ruby Brigade. He questioned his friend on why he didn&#8217;t pursue starting up a promising idea. His friends answer was : &#8220;can&#8217;t get thru arguing with parents&#8221;</p>
-
-<p>I think that this is a very real issue in an Asian context especially. The importance of family has been embroiled from young and filial piety is of utmost importance. Thus, it is more often than not that parents, even at our modern age, hold big influence on the things we do.</p>
-
-<p>The Asian parents are not unlike those from many other cultures who have slogged their whole lives just so that their family can lead comfortable lives. Those were times when nations were being built and fighting for survival meant more than building empires.</p>
-
-<p>Times have changed but the Asian parents&#8217; minds haven&#8217;t. They still want stable jobs for their kids and thus the best paying jobs like doctors, lawyers and bankers are seen as the best careers to pursue. Entrepreneurship is too risky, especially so in a society that does not accept any form of failure. This concept is proven true by the education systems employed.</p>
-
-<p>Of course, there are also a number of other discouraging factors:</p>
-
-<ol>
-<li>There are very few high profile large figure exits that have happened in the region. It might be harder to convince the family the worth of the risk vs the reward.</li>
-<li>Pushing beyond the early adopters in the region is comparatively harder. There is a smaller market of early adopters and making early stage survival a tough fight. The rapid take up rate of smartphones might change this however, as apps are easily accessible.</li>
-<li>Everyone else in society doesn&#8217;t believe in the path of entrepreneurship. When holding a conversation with an extended family member or their friends and they ask you what you do, if you answer with a full time job where you work hard day and night, they nod their heads with approval that you have found a stable job and are now set for life. If you answered excitedly that you are an entrepreneur and that you are building the next big thing, they&#8217;d likely experience a fluster and a frantic moment hiding their disapproval and wondering how not to look like they are in absolute horror. To the Asian society, being an entrepreneur can almost equate to one not doing any work, or being out of work. In a society where &#8220;face&#8221; is of utmost importance, it becomes all the more difficult. Parents want the easy way out. They want to tell their friends and family that their son/daughter is holding a well paying job.</li>
-</ol>
-
-
-<p>That said, it becomes even more apparent that Asian entrepreneurs have to be a special breed of rebels and revolutionaries who can break past all the difficulties placed to stop them in their tracks.</p>
-
-<p>With enough hunger, I am sure that it is possible to break past &#8220;The Parent Trap&#8221;.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -617,6 +667,10 @@ campaigns with their dedicated Twitter accounts.</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/12/07/setting-up-the-blog-using-octopress/">Setting up the blog using Octopress</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2011/09/16/plugins-un-plugged/">Plugins un-plugged?</a>
@@ -652,10 +706,6 @@ campaigns with their dedicated Twitter accounts.</p>
     
       <li class="post">
         <a href="/blog/2011/03/15/creating-desirability/">Creating Desirability</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/03/14/the-asian-tech-startup-conundrum/">The Asian Tech Startup Conundrum</a>
       </li>
     
   </ul>
