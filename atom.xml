@@ -4,7 +4,7 @@
   <title><![CDATA[Zack's Quest]]></title>
   <link href="http://zackyap.github.com/atom.xml" rel="self"/>
   <link href="http://zackyap.github.com/"/>
-  <updated>2011-12-08T04:31:47+08:00</updated>
+  <updated>2011-12-13T05:01:58+08:00</updated>
   <id>http://zackyap.github.com/</id>
   <author>
     <name><![CDATA[Zack Yap -- @zackyap]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Social and Gamificaton as Layers]]></title>
+    <link href="http://zackyap.github.com/blog/2011/12/13/social-and-gamificaton-as-layers/"/>
+    <updated>2011-12-13T04:09:00+08:00</updated>
+    <id>http://zackyap.github.com/blog/2011/12/13/social-and-gamificaton-as-layers</id>
+    <content type="html"><![CDATA[<p><img src="images/spumoni-layer-cake-main.jpg" alt="Layer Cake" /></p>
+
+<h3>Social as a layer</h3>
+
+<p>There has been debate about whether we are at the peak of the social web due to the saturation of social usage.</p>
+
+<p>The truth is that those who think there will be a peak and a slump do not understand social for what it is. As the Zuck would put it: Social is not an app, it is a layer upon the web.</p>
+
+<p>Sure, the web can be served as it is, but social makes it better in a way that is natural to human tendencies and delight. It feeds on mankind&#8217;s tendencies to share things that interests them, thus the power of the &#8220;Like&#8221; and &#8220;Tweet&#8221; buttons. People don&#8217;t need to think about it. It is part of who they are.</p>
+
+<p>A layer doesn&#8217;t make people think. If you are a good designer, you know how important it is to not make users think.</p>
+
+<h3>Gamification as a layer</h3>
+
+<p>I am a web developer and web development is a gamified process where I turn my vision or a mock up into a site. I code it, I click refresh in anticipation of the results and I get to see whether the results match my intended goal. There is constant feedback on my efforts through the refresh button, allowing me to fail and succeed rapidly until I reach the final goal.</p>
+
+<p>And this process is a natural part of the human psych. When we participate in activities we are interested in, we have goals we want to meet, usually related to the mastery of the subject. The best way to meet the goals is to work on it by breaking down the steps into measurable tasks and obtaining feedback on your performance as you complete each task.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Prepare 3 Elevator Pitches]]></title>
