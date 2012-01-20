@@ -29,7 +29,7 @@ aside.sidebar 	{
 	}
 
 $footer-color: #333;
-footer p 		{ color: $footer-color; }
+footer p 		{ color: $footer-color; .meta { color: #333;} }
 
 /* To use the light Solarized highlighting theme uncomment the following line */
 //$solarized: light;

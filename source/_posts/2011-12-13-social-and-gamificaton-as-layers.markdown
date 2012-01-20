@@ -6,7 +6,7 @@ comments: true
 categories: gamification, social
 ---
 
-![Layer Cake](images/spumoni-layer-cake-main.jpg)
+![Layer Cake](https://img.skitch.com/20111212-knibk1tjsngcpd1y8xcspf7kek.jpg)
 
 ### Social as a layer
 
