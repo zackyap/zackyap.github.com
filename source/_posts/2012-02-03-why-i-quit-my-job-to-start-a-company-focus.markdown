@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Why I quit my job to start a company: Focus"
+date: 2012-02-03 11:40
+comments: true
+categories: startup, entrepreneurship
+---
+
+People have often advocated starting a new business during my own free time while I'm holding a full time job before jumping into it. Sure, it means stability and lower risks since I would probably be able to determine whether the business idea will work out.
+
+However, the fact is that a very important aspect of building a good business is actually the founders' ability to maintain a laser sharp focus on their vision and being able to execute the steps required to reach that vision.
+
+Flow is a state of extremely high focus during an activity and it takes time to get into that state. Every time we switch from one activity to another, we break the flow and our productivity takes a huge beating. Activities that require high focus should be done with as little disturbance as possible.
+
+A day job acts as a daily disturbance to an activity you should be fully committed to and focused on. While holding a day job now, I spend 3 hours a day traveling and 9 hours at the office (sometimes more). That is a total of 12+ hours a day spent not working on my product. Most of my energy get expended during those 12 hours as well and I reach home battered and depleted.
+
+How can I convince the world that I believe in my vision if I am unwilling to dive into it and place my full commitment and focus on the business?
+
+If you are starting a business right now while also working a full time job, stop kidding yourself. You are moving much slower than you should be.
