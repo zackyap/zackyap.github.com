@@ -2,30 +2,34 @@
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
 // If you need a handy color picker try http://hslpicker.com
 
-$header-bg: #306E73;
-$subtitle-color: lighten($header-bg, 54);
-$nav-bg: desaturate(lighten(#B29C85, 18), 5);
+$page-bg: #594D4D !default;
+$header-bg: #FFE3C2;
+$title-color: #A64949 !default;
+$subtitle-color: darken($header-bg, 41);
+$nav-bg: desaturate(lighten(#8599A6, 18), 5);
 // $nav-bg-front: image-url('square_bg.png');
 //$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
 //$sidebar-bg: desaturate(#eceff5, 8);
-$sidebar-link-color: saturate(#FF5335, 10);
-$sidebar-link-color-hover: darken(#1D181F, 9);
+$sidebar-link-color: saturate(#594D4D, 10);
+$sidebar-link-color-hover: darken(#594D4D, 9);
 //$footer-bg: #ccc !default;
 //$footer-bg-front: image-url('noise.png');
 //$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
 
+$link-color: lighten(#A64949, 3) !default;
 
 // Main Section Colors
-$main-bg: #3B424C;
+$main-bg: #FFE3C2;
 
-$text-color: #FF5335;
-p, ul, ol 		{ color: #fff; }
+$text-color: #A64949;
+$text-color-light: darken($header-bg, 52) !default;
+p, ul, ol 		{ color: #0b0b0b; }
 
 
-#tweets p 		{ color: #3B424C;}
+#tweets p 		{ color: #0b0b0b;}
 aside.sidebar 	{
-	h1 			{ color: #3B424C;}
-	ul, ol 		{ color: #B29C85;}
+	h1 			{ color: #A64949;}
+	ul, ol 		{ color: #8599A6;}
 	}
 
 $footer-color: #333;
