@@ -4,7 +4,7 @@
   <title><![CDATA[Zack's Questlog]]></title>
   <link href="http://zackyap.github.com/atom.xml" rel="self"/>
   <link href="http://zackyap.github.com/"/>
-  <updated>2012-02-13T17:53:43+08:00</updated>
+  <updated>2012-02-14T14:41:00+08:00</updated>
   <id>http://zackyap.github.com/</id>
   <author>
     <name><![CDATA[Zack Yap -- @zackyap]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Build Your Product Around Social Status]]></title>
+    <link href="http://zackyap.github.com/blog/2012/02/14/build-your-product-around-social-status/"/>
+    <updated>2012-02-14T12:25:00+08:00</updated>
+    <id>http://zackyap.github.com/blog/2012/02/14/build-your-product-around-social-status</id>
+    <content type="html"><![CDATA[<p><img src="http://farm6.staticflickr.com/5025/5684115572_55bc83414f.jpg" alt="Facebook Like Button" /></p>
+
+<p>I have been asking around for why people use foursquare and it is becoming increasingly apparent that game mechanics involving points, badges and mayorship are not the features that keep people checking in.</p>
+
+<p>People are checking in as a show of social status. It shows that they are doing something interesting somewhere. A check in is thus inherently social without the need for badges, mayorship or points.</p>
+
+<p>This is also true for all other social products as the social web is essentially breeding a popularity contest. How many Likes will I get? How many followers do I have? How many people are going to reblog my post? How many karma points will I get?</p>
+
+<p>What people are concerned about on the social web is their social status. The question they are asking can be simplified as &#8220;Do people like me?&#8221;</p>
+
+<p>If you can build product that helps people get to a &#8220;Yes!&#8221; for the question above, congratulations! You have an addictive and viral product.</p>
+
+<p><a href="http://www.flickr.com/photos/smemon/5684115572/">Photo Credit</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Verbs are the next big thing]]></title>
@@ -660,24 +681,6 @@ notifications and sound effects</p>
 <li>Statistics and graphs need to be easy for layman use</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mac rumor for today: iPad 2 announcement on 2nd March]]></title>
-    <link href="http://zackyap.github.com/blog/2011/02/23/mac-rumor-for-today-ipad-2-announcement-on-2nd-march/"/>
-    <updated>2011-02-23T17:02:42+08:00</updated>
-    <id>http://zackyap.github.com/blog/2011/02/23/mac-rumor-for-today-ipad-2-announcement-on-2nd-march</id>
-    <content type="html"><![CDATA[<p>The latest news is that March 2nd&#8217;s Apple event will be for the announcement
-of this year&#8217;s iPad. Of course, there are also other rumors that <a href="http://techcrunch.com/2011/02/09/ipad-3/">this won&#8217;t
-be the only release of iPad for the
-year</a>, which means that iPad 3 (or
-iPad 2.5) will also be released later this year.</p>
-
-<p>This rendition of the iPad is rumored to be faster, includes front and back
-cam and comes with high def screen.</p>
-
-<p>Will definitely be up to look at Live Updates on March 2nd night.</p>
 ]]></content>
   </entry>
   

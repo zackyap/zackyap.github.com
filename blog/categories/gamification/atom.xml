@@ -4,7 +4,7 @@
   <title><![CDATA[Category: gamification | Zack's Questlog]]></title>
   <link href="http://zackyap.github.com/blog/categories/gamification/atom.xml" rel="self"/>
   <link href="http://zackyap.github.com/"/>
-  <updated>2012-02-13T17:53:43+08:00</updated>
+  <updated>2012-02-14T14:41:00+08:00</updated>
   <id>http://zackyap.github.com/</id>
   <author>
     <name><![CDATA[Zack Yap -- @zackyap]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Build Your Product Around Social Status]]></title>
+    <link href="http://zackyap.github.com/blog/2012/02/14/build-your-product-around-social-status/"/>
+    <updated>2012-02-14T12:25:00+08:00</updated>
+    <id>http://zackyap.github.com/blog/2012/02/14/build-your-product-around-social-status</id>
+    <content type="html"><![CDATA[<p><img src="http://farm6.staticflickr.com/5025/5684115572_55bc83414f.jpg" alt="Facebook Like Button" /></p>
+
+<p>I have been asking around for why people use foursquare and it is becoming increasingly apparent that game mechanics involving points, badges and mayorship are not the features that keep people checking in.</p>
+
+<p>People are checking in as a show of social status. It shows that they are doing something interesting somewhere. A check in is thus inherently social without the need for badges, mayorship or points.</p>
+
+<p>This is also true for all other social products as the social web is essentially breeding a popularity contest. How many Likes will I get? How many followers do I have? How many people are going to reblog my post? How many karma points will I get?</p>
+
+<p>What people are concerned about on the social web is their social status. The question they are asking can be simplified as "Do people like me?"</p>
+
+<p>If you can build product that helps people get to a "Yes!" for the question above, congratulations! You have an addictive and viral product.</p>
+
+<p><a href="http://www.flickr.com/photos/smemon/5684115572/">Photo Credit</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Verbs are the next big thing]]></title>

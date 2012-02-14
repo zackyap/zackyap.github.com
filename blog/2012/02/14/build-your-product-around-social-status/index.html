@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Setting up the blog using Octopress - Zack's Questlog</title>
+  <title>Build Your Product Around Social Status - Zack's Questlog</title>
   <meta name="author" content="Zack Yap -- @zackyap">
 
   
-  <meta name="description" content="I&#8217;ve been wanting to migrate the blog from Wordpress over to a Jekyll/Octopress blogging framework for tech geeks but haven&#8217;t really had &hellip;">
+  <meta name="description" content="I have been asking around for why people use foursquare and it is becoming increasingly apparent that game mechanics involving points, badges and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress">
+  <link rel="canonical" href="http://zackyap.github.com/blog/2012/02/14/build-your-product-around-social-status">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -83,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Setting Up the Blog Using Octopress</h1>
+      <h1 class="entry-title">Build Your Product Around Social Status</h1>
     
     
       <p class="meta">
@@ -99,7 +99,7 @@
   
 
 
-<time datetime="2011-12-07T13:49:00+08:00" pubdate data-updated="true">Dec 7<span>th</span>, 2011</time>
+<time datetime="2012-02-14T12:25:00+08:00" pubdate data-updated="true">Feb 14<span>th</span>, 2012</time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -108,90 +108,19 @@
   </header>
 
 
-<div class="entry-content"><p><img src="https://img.skitch.com/20111207-p8sni6h2eyyac4dg65wpmpahx8.jpg" alt="Zack's Quest" /></p>
+<div class="entry-content"><p><img src="http://farm6.staticflickr.com/5025/5684115572_55bc83414f.jpg" alt="Facebook Like Button" /></p>
 
-<p>I&#8217;ve been wanting to migrate the blog from Wordpress over to a Jekyll/Octopress blogging framework for tech geeks but haven&#8217;t really had the time with my crazy schedules.</p>
+<p>I have been asking around for why people use foursquare and it is becoming increasingly apparent that game mechanics involving points, badges and mayorship are not the features that keep people checking in.</p>
 
-<p>And then I realized it doesn&#8217;t actually take too much time to set Octopress up and deploy, especially if you are deploying to Github pages or Heroku.</p>
+<p>People are checking in as a show of social status. It shows that they are doing something interesting somewhere. A check in is thus inherently social without the need for badges, mayorship or points.</p>
 
-<p>If you&#8217;re looking to migrate from Wordpress as well, here&#8217;s an outline of the steps I took:</p>
+<p>This is also true for all other social products as the social web is essentially breeding a popularity contest. How many Likes will I get? How many followers do I have? How many people are going to reblog my post? How many karma points will I get?</p>
 
-<h4>1. Make sure you have Ruby 1.9.2+ and Clone Octopress</h4>
+<p>What people are concerned about on the social web is their social status. The question they are asking can be simplified as &#8220;Do people like me?&#8221;</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/imathis/octopress.git octopress
-</span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
+<p>If you can build product that helps people get to a &#8220;Yes!&#8221; for the question above, congratulations! You have an addictive and viral product.</p>
 
-
-<h4>2. Install dependencies and install the default Ocotpress theme</h4>
-
-<p>bundle install
-rake install</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>
-</span><span class='line'>#### 3. Export and convert WordPress blog posts you want to migrate ####
-</span><span class='line'>
-</span><span class='line'>Export WordPress blog entries you want to migrate and use [exitwp](https://github.com/thomasf/exitwp) to convert them to markdown.  Put the converted entries into your `source/_posts` folder.
-</span><span class='line'>
-</span><span class='line'>#### 4. Set up a Github page ####
-</span><span class='line'>
-</span><span class='line'>If you want a Github page with subdomain called username/organization, set up a Github repository like `username.github.com` or `organization.github.com`
-</span><span class='line'>Next, run Octopress's Github Pages setup:
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>rake setup_github_pages</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>
-</span><span class='line'>It will ask you for your Github repository URL so throw in the SSH URL for your Github repository.
-</span><span class='line'>
-</span><span class='line'>#### 5. Generate the blog and deploy ####
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>rake generate
-rake deploy</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>
-</span><span class='line'>#### 6. Commit the source of your blog ####
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>git add .
-git commit -m &#8216;your message&#8217;
-git push origin source</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>
-</span><span class='line'>#### 7. View your blog on local ####
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>rake preview
-&#8220;`</p>
-
-<h4>8. Set up your custom domain</h4>
-
-<p>I&#8217;ll leave this to you with Octopress&#8217;s own instructions at <a href="http://octopress.org/docs/deploying/github#custom_domains">Custom Domains</a>.</p>
-
-<p>Enjoy!</p>
+<p><a href="http://www.flickr.com/photos/smemon/5684115572/">Photo Credit</a></p>
 </div>
 
 
@@ -214,15 +143,21 @@ git push origin source</p>
   
 
 
-<time datetime="2011-12-07T13:49:00+08:00" pubdate data-updated="true">Dec 7<span>th</span>, 2011</time>
+<time datetime="2012-02-14T12:25:00+08:00" pubdate data-updated="true">Feb 14<span>th</span>, 2012</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/development-/'>development,</a>, <a class='category' href='/blog/categories/gamification/'>gamification</a>, <a class='category' href='/blog/categories/media-/'>media,</a>, <a class='category' href='/blog/categories/product/'>product</a>, <a class='category' href='/blog/categories/social/'>social</a>
+  
+</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress/" data-via="zackyap" data-counturl="http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://zackyap.github.com/blog/2012/02/14/build-your-product-around-social-status/" data-via="zackyap" data-counturl="http://zackyap.github.com/blog/2012/02/14/build-your-product-around-social-status/" >Tweet</a>
   
   
   
@@ -233,10 +168,8 @@ git push origin source</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/09/16/plugins-un-plugged/" title="Previous Post: Plugins un-plugged?">&laquo; Plugins un-plugged?</a>
+        <a class="basic-alignment left" href="/blog/2012/02/07/verbs-are-the-next-big-thing/" title="Previous Post: Verbs are the next big thing">&laquo; Verbs are the next big thing</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2011/12/08/prepare-3-elevator-pitches/" title="next Post: Prepare 3 Elevator Pitches">Prepare 3 Elevator Pitches &raquo;</a>
       
     </p>
   </footer>
@@ -339,8 +272,8 @@ git push origin source</p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress/';
-        var disqus_url = 'http://zackyap.github.com/blog/2011/12/07/setting-up-the-blog-using-octopress/';
+        var disqus_identifier = 'http://zackyap.github.com/blog/2012/02/14/build-your-product-around-social-status/';
+        var disqus_url = 'http://zackyap.github.com/blog/2012/02/14/build-your-product-around-social-status/';
         var disqus_script = 'embed.js';
       
     (function () {
