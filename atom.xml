@@ -4,7 +4,7 @@
   <title><![CDATA[Zack's Questlog]]></title>
   <link href="http://zackyap.github.com/atom.xml" rel="self"/>
   <link href="http://zackyap.github.com/"/>
-  <updated>2012-02-14T14:41:00+08:00</updated>
+  <updated>2012-02-23T18:23:59+08:00</updated>
   <id>http://zackyap.github.com/</id>
   <author>
     <name><![CDATA[Zack Yap -- @zackyap]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Entrepreneurship: A Path of Self Discovery]]></title>
+    <link href="http://zackyap.github.com/blog/2012/02/23/entrepreneurship-a-path-of-self-discovery/"/>
+    <updated>2012-02-23T17:53:00+08:00</updated>
+    <id>http://zackyap.github.com/blog/2012/02/23/entrepreneurship-a-path-of-self-discovery</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Build Your Product Around Social Status]]></title>
@@ -657,30 +666,6 @@ notifications and sound effects</p>
 <p><em>Requires iPhone 4 with tethering data plan<br/>
 <strong>Requires Apple TV (2nd generation) running software    version 4.2 or later<br/>
 </strong></em>iPhone 4, iPad, iPod touch (4th generation)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[42Goals.com an idea I wanted to work on]]></title>
-    <link href="http://zackyap.github.com/blog/2011/03/09/42goals-com-an-idea-i-wanted-to-work-on/"/>
-    <updated>2011-03-09T13:12:44+08:00</updated>
-    <id>http://zackyap.github.com/blog/2011/03/09/42goals-com-an-idea-i-wanted-to-work-on</id>
-    <content type="html"><![CDATA[<!-- [![42goals](http://zackyap.com/wp-content/uploads/2011/03/goals42-300x136.jpg)](http://zackyap.com/wp-content/uploads/2011/03/goals42.jpg)
- -->
-
-
-<p>I happened across <a href="http://www.42goals.com">this new web app</a> and through looking at the UI, I know that if I worked on the idea, this would have been what it is.</p>
-
-<p>At its core, it is a goal tracking app where you set up habits that you would like to cultivate and goals you want to achieve. On a daily basis, you would make updates to the app to indicate whether you have achieved your goal.</p>
-
-<p>Initial quick thoughts on this app:</p>
-
-<ol>
-<li>It can still be made simpler (simplify the view, really)</li>
-<li><del>This would be much better on mobile so that users update on the go</del> (edit: realized they have a mobile version)</li>
-<li>Statistics and graphs need to be easy for layman use</li>
-</ol>
-
 ]]></content>
   </entry>
   
